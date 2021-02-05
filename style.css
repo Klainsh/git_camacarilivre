@@ -103,15 +103,22 @@ h2{
 
 
 .foto-cabecalho{
+    /* tamanho */
     width: 1000px;
     height: 150px;
+
+    /* borda */
     border-radius: 15px;
+    border-style: double;
+    border-left: 0px;
+    border-right: 0px;
+
+    /* margem */
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    
     display: table-cell;
-    /*
-    border: 1px;
-    border-style: groove;
-    border-color: black;
-    */
+
 }
