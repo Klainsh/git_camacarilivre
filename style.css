@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens/fotos-originais/Logo-camacarilivre.jpeg);
+    background-size: 42px;
+    background-position-x: 300px;
+    background-position-y: 300px;
+}
+
+
+p{
+    
+    border-style: ridge;
+    border-radius: 3px;
+    border-color: rgb(52, 71, 241);
+    border-left: 0px;
+    border-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+    background-color: rgb(36, 33, 33);
+    font-family: 'arial';
+    max-width: 51ch;
+    text-align: justify;         
+}
+
+.foto-grupo{
+    margin-left: auto;
+    margin-right: auto;
+    display: table-cell;
+    border-radius: 20px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
+    background-size: 4;
+    width: 500px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(26, 23, 23);
+    color: white;
+    text-decoration: underline;
+    width: 490px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.div-imagens{
+    margin-left: auto;
+    margin-right: auto;
+    width: 498px;
+    height: 1px;
+    background-color: rgb(52, 71, 241);
+}
+
+.site{
+/* Definimos a largura da página */
+  width:1000px;
+  /* Definirmos a altura da página*/
+
+  /*height:700px;
+
+  /* Aqui definiremos a posição que a página ocupará na tela, nesse caso estamos definindo que fique centralizado na tela*/
+  /*top : posição de cima */
+  margin-top:0;
+  /* left: posição de esquerda*/
+  margin-left: auto;
+  /* bottom : posição de baixo */
+  margin-bottom:0;
+  /* right : posição de direita */
+  margin-right: auto;
+
+  background-color:rgb(255, 255, 255);
+
+/*Borda*/
+  border-style: double;
+  border-radius: 5px;
+  border-color: rgb(0, 0, 0);
+  
+  
+}
+
+.site-esquerda{
+    background-color: rgb(255, 255, 255);
+    border-style: double;
+    border-radius: 5px;
+    margin-left: 0px;
+    display: table-cell;
+}
+
+.conteudo-esquerda{
+    margin: 10px;
+    height: 500px;
+    display: table-cell;
+}
+
+
+.foto-cabecalho{
+    width: 1000px;
+    height: 150px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table-cell;
+    /*
+    border: 1px;
+    border-style: groove;
+    border-color: black;
+    */
+}
