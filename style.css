@@ -7,6 +7,15 @@ body{
     background-position-y: 300px;
 }
 
+/*pagina formulario*/
+.formulario{
+    margin-left: auto;
+    margin-right: auto;
+    display: table-cell;
+}
+
+/*Fim da pagina formulario*/
+
 /* APARTI DAQUI COMEÇA A PARTE ESQUERDA DO SITE! */
 
 .p-esquerda{
@@ -161,7 +170,6 @@ h2{
 }
 
 .p-direita{
-        
     border-style: ridge;
     border-radius: 3px;
     border-color: rgb(129, 142, 255);
@@ -177,6 +185,26 @@ h2{
     font-weight: bolder;
     font-size: 20px;
     letter-spacing: 0px;
+    max-width: 20ch;
+    text-align: center; 
+}
+
+.p-formulario{
+    border-style: double;
+    border-radius: 3px;
+    border-color: rgb(0, 0, 0);
+    border-left: -1px;
+    border-right: -1px;
+    
+    margin-left: 3px;
+    margin-right: 3px;
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(129, 142, 255);
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 4px;
     max-width: 20ch;
     text-align: center; 
 }
